@@ -126,3 +126,6 @@ TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/hlte/init/init_hlte.c
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/hlte
+
+# External apps on SDCard
+TARGET_EXTERNAL_APPS = sdcard1
