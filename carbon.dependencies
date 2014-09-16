@@ -1,5 +1,9 @@
 [
   {
+    "repository":  "CarbonDev/android_device_samsung_hlte-common",
+    "target_path": "device/samsung/hlte-common"
+  },
+  {
     "remote":      "cm",
     "repository":  "CyanogenMod/android_device_qcom_common",
     "target_path": "device/qcom/common",
@@ -36,7 +40,9 @@
     "revision":    "cm-11.0"
   },
   {
-    "repository":  "CarbonDev/proprietary_vendor_samsung",
-    "target_path": "vendor/samsung"
+    "remote":      "tm",
+    "repository":  "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision":    "cm-11.0"
   }
 ]
